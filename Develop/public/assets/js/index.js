@@ -3,6 +3,8 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+// New noteListItem.
+let noteListItem;
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -10,6 +12,7 @@ if (window.location.pathname === '/notes') {
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
   noteList = document.querySelectorAll('.list-container .list-group');
+  noteListItem = document.querySelectorAll('.list-group-item');
 }
 
 // Show an element
@@ -50,6 +53,14 @@ const deleteNote = (id) =>
     },
   });
 
+  const showNote = (id) =>
+  fetch(`/api/notes/${id}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -84,6 +95,7 @@ const handleNoteDelete = (e) => {
 
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
+  console.log(noteId + 'has been deleted' );
 
   if (activeNote.id === noteId) {
     activeNote = {};
@@ -164,7 +176,7 @@ const renderNoteList = async (notes) => {
 
     noteListItems.push(li);
   });
-
+  // Checks what webpage were on so it doesn't do the same code on the main page.
   if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => noteList[0].append(note));
   }

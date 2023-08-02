@@ -1,6 +1,6 @@
 // TODO -- Bring in express module
 // TODO -- call /db/notes
-// TODO -- set app to 
+// TODO -- set app to call the notes middleware.
 
 const express = require('express');
 
