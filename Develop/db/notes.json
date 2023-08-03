@@ -5,13 +5,23 @@
         "id": "YONGBOY"
     },
     {
-        "title": "SSSS",
-        "text": "SSSSZ",
-        "id": "c0443991-e6c4-4085-8669-8e5fae8983cf"
+        "title": "Super Smash Bros. Ultimate",
+        "text": "I like Young Link!",
+        "id": "b7a933b0-7e0e-4279-bd47-d8300b7abeeb"
     },
     {
-        "title": "ffzx",
-        "text": "zzzz",
-        "id": "19a9b203-1456-44d3-b5bc-83893abdc66a"
+        "title": "NPM Packages",
+        "text": "Express\nUUID\nJest\nValidate Color\nInquirer",
+        "id": "8ca273d2-f675-4604-b115-4b36c849c17f"
+    },
+    {
+        "title": "MySQL commands",
+        "text": "mysql -u root -p",
+        "id": "f645bb44-11bb-4851-9de8-ad8a8386d471"
+    },
+    {
+        "title": "Pokémon Floral Tempus",
+        "text": "Pokemon Floral Tempus is a fangame made by yours truly! Look it up!",
+        "id": "0b396480-25b8-430b-8b4d-8bcf69d8784f"
     }
 ]
