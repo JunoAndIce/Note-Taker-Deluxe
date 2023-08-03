@@ -18,7 +18,7 @@ Note-Take-Deluxe is a note taker webapp that allows the user to save notes. The 
   
 ## Installation
   
-Simply go to the webpage, and click 'Get Started'.
+N/A
 
 ## Technologies
   
@@ -27,7 +27,11 @@ Simply go to the webpage, and click 'Get Started'.
 - NPM UUID
   
 ## Usage
-  
+
+Go to this site: (<https://cryptic-sands-85445-cb7b58f3dad1.herokuapp.com/>)
+
+On the homepage, click 'Get Started' to begin.
+
 When using the webpage, clicking an old entry will post it on the right column. Clicking the plus symbol on the top right, will clear the field and ready the notes for a new entry. When both fields are filled in, the save symbol will appear next to the plus symbol. Clicking the save symbol will send the current note to the API to be saved.
   
 ## License
