@@ -38,7 +38,7 @@ This project is covered under the MIT license.
   
 ## Media
 
-![Screenshot of the main site](./Develop/public/assets/Images/Screenshot.png)
+![Screenshot of the main site](./public/assets/Images/Screenshot.png)
   
 ## Credits
 
